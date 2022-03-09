@@ -1,0 +1,93 @@
+{
+  "HALProvider": {
+    "Other Devices": {
+      "Talon SRX[6]/Quad Encoder": {
+        "header": {
+          "open": true
+        }
+      }
+    }
+  },
+  "NTProvider": {
+    "types": {
+      "/FMSInfo": "FMSInfo",
+      "/LiveWindow/ExampleSubsystem": "Subsystem",
+      "/LiveWindow/SimClaw": "Subsystem",
+      "/LiveWindow/SimIntakeArmMotor": "Subsystem",
+      "/LiveWindow/SimLeftPiston": "Subsystem",
+      "/LiveWindow/SimLeftServo": "Subsystem",
+      "/LiveWindow/SimLeftServoClaw": "Subsystem",
+      "/LiveWindow/SimLeftServoClimb": "Subsystem",
+      "/LiveWindow/SimPiston": "Subsystem",
+      "/LiveWindow/SimPivotMotor": "Subsystem",
+      "/LiveWindow/SimRightPiston": "Subsystem",
+      "/LiveWindow/SimRightServoClaw": "Subsystem",
+      "/LiveWindow/SimRightServoClimb": "Subsystem",
+      "/LiveWindow/Ungrouped/DifferentialDrive[1]": "DifferentialDrive",
+      "/LiveWindow/Ungrouped/PIDController[1]": "PIDController",
+      "/LiveWindow/Ungrouped/PIDController[2]": "PIDController",
+      "/LiveWindow/Ungrouped/PWMSparkMax[0]": "Motor Controller",
+      "/LiveWindow/Ungrouped/PWMSparkMax[4]": "Motor Controller",
+      "/LiveWindow/Ungrouped/Scheduler": "Scheduler",
+      "/LiveWindow/Ungrouped/Talon SRX [5]": "Motor Controller",
+      "/LiveWindow/Ungrouped/Talon SRX [6]": "Motor Controller",
+      "/LiveWindow/Ungrouped/Talon SRX [9]": "Motor Controller",
+      "/SmartDashboard/Arm Sim": "Mechanism2d",
+      "/SmartDashboard/Elevator Sim": "Mechanism2d",
+      "/SmartDashboard/Field": "Field2d"
+    },
+    "windows": {
+      "/SmartDashboard/Arm Sim": {
+        "window": {
+          "visible": true
+        }
+      },
+      "/SmartDashboard/Elevator Sim": {
+        "window": {
+          "visible": true
+        }
+      }
+    }
+  },
+  "NetworkTables": {
+    "LiveWindow": {
+      ".status": {
+        "open": true
+      },
+      "ExampleSubsystem": {
+        "open": true
+      },
+      "SimClaw": {
+        "open": true
+      },
+      "SimPiston": {
+        "open": true
+      },
+      "open": true
+    },
+    "Shuffleboard": {
+      "ClimbSolenoid": {
+        "open": true
+      },
+      "Intake": {
+        "open": true
+      },
+      "IntakeLeftServo": {
+        "open": true
+      },
+      "Servo": {
+        "open": true
+      },
+      "Solenoid": {
+        "open": true
+      },
+      "open": true
+    },
+    "SmartDashboard": {
+      "Field": {
+        "open": true
+      },
+      "open": true
+    }
+  }
+}
